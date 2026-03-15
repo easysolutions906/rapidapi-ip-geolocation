@@ -1,0 +1,17 @@
+{
+  "name": "ip-geolocation-api",
+  "version": "1.0.0",
+  "description": "IP geolocation API - country, city, ISP, timezone lookup",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["ip", "geolocation", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
